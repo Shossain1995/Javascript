@@ -20,7 +20,7 @@
 
 // End
 var num= parseInt(prompt("Is a prime number"));
-var isprime=true;
+var isprime=true; //0
 
 if(num<=1) isprime=false;
 for(let i=2; i<=Math.sqrt(num); i++){
@@ -30,7 +30,14 @@ for(let i=2; i<=Math.sqrt(num); i++){
    }
 }
 
-if(isprime){
+// for(let i=2; i<=num;i++){
+//    if(num%i===0){
+//       isprime++;
+//       break;
+//    }
+// }
+
+if(isprime==0){
    document.write("Is a prime number");
 }else{
    document.write("Is not a prime number");
