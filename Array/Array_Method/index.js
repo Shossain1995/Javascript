@@ -106,10 +106,18 @@
 //********************************** */
 
 
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.splice(2, 0, "Lemon", "Kiwi");
-document.write(fruits);
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// // fruits.splice(2, 0, "Lemon", "Kiwi");
+// // var fruit=fruits.toSpliced(0,1)
+// // document.write(fruits);
+// // document.write(fruit);
 
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+ fruits.slice(2, 0,);
+
+document.write(fruits);
 
 //********************************** */
 
